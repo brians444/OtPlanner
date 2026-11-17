@@ -1,0 +1,28 @@
+# Dependencias y builds
+node_modules/
+.next/
+out/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Configuración local y datos (contienen secrets / datos vivos)
+backend/config.yaml
+backend/*.db
+*.sqlite3
+
+# Datos reales del negocio: nunca se versionan (el repo usa demo.xlsx)
+base_docs/bd.xlsx
+
+# Logs y temporales
+*.log
+nohup.out
+
+# Editor / agente / sistema
+.qwen/
+.vscode/
+.idea/
+*.lnk
+.DS_Store
+Thumbs.db

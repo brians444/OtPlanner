@@ -1,0 +1,1 @@
+from . import models  # noqa: F401  (registra todos los modelos en el metadata)
